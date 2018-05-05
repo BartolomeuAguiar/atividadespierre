@@ -1,0 +1,14 @@
+
+public class TestaSplit {
+	public static void main(String[] args) {
+		String frase = "Socorram-me, subi no ônibus em Marrocos";
+		String[] palavras = frase.split(" ");
+
+		// System.out.println(palavras[1]);
+
+		for (int i = palavras.length - 1; i > -1; i--) {
+			System.out.print(" " + palavras[i]);
+		}
+	}
+
+}
