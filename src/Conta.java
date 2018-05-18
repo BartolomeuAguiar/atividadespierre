@@ -26,10 +26,12 @@ public class Conta {
 	}// fim calcula rendimentos
 
 	public String recuperandoDadosParaImpressao() {
-		String dados = "Titular: " + this.titular;
+		String dados ="**********************";
+		dados += "\nTitular: " + this.titular;
 		dados += "\nNumero: " + this.numero;
 		dados += "\nAgência: " + this.agencia;
 		dados += "\nSaldo R$ " + this.saldo;
+		dados += "\n**************************";
 		/*
 		 * dados += "\nDia: " + this.dataDeAbertura.dia; dados += "\nMês: "+
 		 * this.dataDeAbertura.mes; dados += "\nAno: "+ this.dataDeAbertura.ano;
