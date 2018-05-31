@@ -1,3 +1,4 @@
+package br.com.caelum.contas.main;
 
 public class TestaSplit {
 	public static void main(String[] args) {
